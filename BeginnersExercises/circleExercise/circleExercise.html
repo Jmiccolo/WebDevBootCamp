@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Circle Exercise</title>
+	<link rel="stylesheet" type="text/css" href="circleExercise.css">
+	<script type="text/javascript" src="paper-full.js"></script>
+	<script type="text/javascript" src="circleExercise.js"></script>
+	<script type="text/paperscript" canvas="myCanvas">
+		
+		for(x=0; x<1000; x+=100) {
+			for(y=0; y<1000; y+=100) {
+		var myCircle = new Rectangle(new Point(x, y), new Point(5, 5));
+			var rectangle = Path.Rectangle(myCircle); 
+		var r = x/10
+		var g = y/10
+		rectangle.fillColor = 'rgb(0, ' + r + ', ' + g + ')'; }};
+
+	</script>
+</head>
+<body>
+	<canvas id="myCanvas" resize></canvas>
+
+
+</body>
+</html>
