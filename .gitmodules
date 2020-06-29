@@ -1,0 +1,3 @@
+[submodule "YelpCamp"]
+	path = YelpCamp
+	url = git@github.com:Jmiccolo/WebDevBootCamp.git
