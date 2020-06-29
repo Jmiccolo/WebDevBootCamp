@@ -1,17 +1,15 @@
 var faker = require ('faker');
-console.log("====Welcome to my Shop====")
-
+console.log("====Welcome to my Shop====");
+function list(){
 	for(var i = 0; i < 10; i++){
-		var prod = ""
+		var prod = "";
 		prod = faker.commerce.productName();
 
-		var pr = ""	
+		var pr = "";	
 		pr = faker.commerce.price();	
 	
-		console.log(prod + " - $" + );
-		
+		console.log(prod + " - $" + pr);
 	}
 }
-
 list();
 
